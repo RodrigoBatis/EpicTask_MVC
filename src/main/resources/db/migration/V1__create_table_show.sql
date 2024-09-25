@@ -1,0 +1,7 @@
+CREATE TABLE T_SHOW_FIAP (
+    id INTEGER PRIMARY KEY,
+    nome_evento VARCHAR(255) NOT NULL,
+    descricao VARCHAR(1000) NOT NULL,
+    artistas VARCHAR(1000) NOT NULL,
+    localizacao VARCHAR(1000) NOT NULL
+);
